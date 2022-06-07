@@ -1,0 +1,14 @@
+section.hero {
+  background: url("../public/image/HERO.jpg");
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 100px);
+}
+section.hero .hero-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+/*# sourceMappingURL=home.css.map */

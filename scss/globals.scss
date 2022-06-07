@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap');
+@import "./navbar.scss";
+@import "./buttons.scss";
+@import "./home.scss";
+
+$color-primary: #01038A;
+$secondary: #047aed;
+
+:root{
+
+
+    font-size: 62.5%;
+}
+
+*{
+  margin:  0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: visible;
+}
+.hight{
+  min-height: 70vh;
+}
+
+html,body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+.active a{
+    color: #047aed;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+}
+
+.container{
+  margin: 0 auto;
+  padding: 0 2%;
+  max-width: 1440px;
+}
+// Comeaca o nav
+
+a{
+  text-decoration: none;
+  color: #ccc;
+  line-height: 1.5;
+  transition: all ease-in 0.2s;
+}
+
+ul, li{
+  list-style: none;
+
+}
+
+img{
+  max-width: 100%;
+}
+
+// Comeaca o nav

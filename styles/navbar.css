@@ -1,0 +1,27 @@
+.header {
+  height: 70px;
+  width: 100%;
+  background-color: #ffffff;
+  position: relative;
+  border-bottom: 2px solid #047aed;
+}
+.header .nav-flex {
+  justify-content: space-between;
+}
+.header .navbar .logo {
+  margin-right: 30px;
+}
+.header .navbar .menu li {
+  margin-right: 10px;
+  border-bottom: 1px solid transparent;
+  transition: all ease-in 0.2s;
+}
+.header .navbar .menu li:hover {
+  border-bottom: 1px solid #047aed;
+}
+.header .navbar .menu li a {
+  color: #333;
+  padding: 10px 10px;
+}
+
+/*# sourceMappingURL=navbar.css.map */
