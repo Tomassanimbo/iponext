@@ -8,7 +8,7 @@ export default function Home() {
     <section className = "hero" >
       <div className = "container hero-flex" >
       
-      <h1> Uma maneira incrivel de ver seu negocio crescer é com a EMAINVEST </h1> 
+      <h1> Uma maneira incrivel de ver seu negocio crescer é com a <span>EMAINVEST</span> </h1> 
       
       <div className="button">
         <button className="btn btn-primary">entrar</button>

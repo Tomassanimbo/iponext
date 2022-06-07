@@ -1,14 +1,27 @@
 section.hero {
-  background: url("../public/image/HERO.jpg");
+  background: linear-gradient(94deg, rgba(0, 0, 0, 0.5) 0%, rgba(82, 85, 251, 0.2525385154) 100%), url("../public/image/HERO.jpg");
   background-size: cover;
   background-position: center;
-  height: calc(100vh - 100px);
+  background-repeat: no-repeat;
+  height: calc(100vh - 80px);
+  position: relative;
 }
 section.hero .hero-flex {
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100%;
+}
+section.hero h1 {
+  top: -100px;
+  max-width: 400px;
+  font-size: 3.6rem;
+  color: #fff;
+  margin-bottom: 3rem;
+  z-index: 100;
+}
+section.hero h1 span {
+  color: #047aed;
 }
 
 /*# sourceMappingURL=home.css.map */
