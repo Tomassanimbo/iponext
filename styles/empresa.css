@@ -1,0 +1,38 @@
+.hero-busca {
+  padding: 30px 0;
+  width: 100vw;
+  height: 30vh;
+  background-color: aqua;
+}
+.hero-busca .title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.hero-busca .form-busca {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.hero-busca .form-busca .form-control {
+  position: relative;
+}
+.hero-busca .form-busca .form-control input {
+  width: 100%;
+  padding-left: 15px;
+}
+.hero-busca .form-busca .form-control button {
+  color: #fff;
+  background-color: blue;
+  position: absolute;
+  font-size: 3rem;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  cursor: pointer;
+  padding: 9px 15px;
+  transition: all ease-in 0.2s;
+}
+.hero-busca .form-busca .form-control button:hover {
+  background-color: blueviolet;
+}
+
+/*# sourceMappingURL=empresa.css.map */

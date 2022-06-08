@@ -35,7 +35,7 @@ export default function Home() {
     </section> 
 
     <section className="dicas">
-        <h1 >Porque o <strong>EMAINVEST<span>IPO</span> </strong> ?</h1>
+        <h1 className='title-dicas' >Porque o <strong>EMAINVEST<span>IPO</span> </strong> ?</h1>
       <div className="container grid">
           <div className="imgam">
             <Image className='imagens' src="/image/ipo.svg" width={500} height={300} alt="" />
@@ -169,14 +169,16 @@ export default function Home() {
         <div className="financiamento">
             <h1>Receba um financiamento</h1>
             <p>aqui voce encontra o jeito certo de dar vida ao seu negocio</p>
-          <div className="financ-box">
-           <Image src="/image/aviso1.svg" width={300} height={170} alt="" />
-            <h3>Pessoa Fisisca</h3>
-          </div>
-          <div className="financ-box">
-           <Image src="/image/aviso1.svg" width={300} height={170} alt="" />
-            <h3>Pessoa juridica</h3>
-          </div>
+          <div className="financ-details">
+            <div className="financ-box">
+            <Image src="/image/aviso1.svg" width={300} height={170} alt="" />
+              <h3>Pessoa Fisisca</h3>
+            </div>
+            <div className="financ-box">
+            <Image src="/image/aviso1.svg" width={300} height={170} alt="" />
+              <h3>Pessoa juridica</h3>
+            </div>
+            </div>
         </div>
 
         {/* Investimento */}
@@ -284,7 +286,7 @@ export default function Home() {
       </div>
     </section>
 
-{/* Area relacinada com os testemunhas */}
+{/* Area relacionada com os testemunhas */}
     <section className="testemunho padding">
       <div className="min-container">
         <h1 className="title">
