@@ -20,8 +20,10 @@ export default function Navbar(){
                     </ul>
                 </nav>
                 <div >
-                  <button className="btn btn-primary">
-                    entrar
+                  <button className="btn btn-primary reset">
+                    <Link href="acesso" >
+                      <a>entrar</a>
+                    </Link>
                   </button>
                 </div>
             </div>
