@@ -1,15 +1,10 @@
 .btn{
-  display: inline-block;
   padding: 1rem 5rem;
   border: 0;
-  font-size: 1.8rem;
   font-weight: 300;
   border-radius: 3rem;
   margin-right: 1.6rem;
-  text-transform: uppercase;
-  cursor: pointer;
   height: 100%;
-  transition: all 0.2s;
 }
 button.reset{
   a{
@@ -24,10 +19,23 @@ button.reset{
 .btn-primary{
   color: #fff;
   background-color: #01038A;
+  cursor: pointer;
   
   &:hover{
     
     background-color: #047aed;
+    transform: translateY(-2px);
   }
 
+}
+
+
+.secondary{
+  // margin: 2rem 0;
+  
+  border: 1px solid transparent;
+  &:hover{
+    color: #fff;
+    border: 1px solid #fff;
+  }
 }
