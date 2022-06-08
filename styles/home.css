@@ -42,7 +42,6 @@ section.barra .info-barra {
 
 section.dicas {
   padding: 70px 0;
-  border-bottom: 2px solid #999;
 }
 section.dicas .title {
   margin-bottom: 3.6rem;
@@ -54,6 +53,7 @@ section.dicas .title span {
   color: #01038A;
 }
 section.dicas .imagens img {
+  display: block;
   max-width: 100%;
 }
 section.dicas .grid {
@@ -80,6 +80,70 @@ section.dicas .box-dicas .info-dicas {
 
 .luta {
   margin-top: 70px;
+}
+
+section.ipo {
+  text-align: center;
+}
+section.ipo h2.title {
+  margin: 5.6rem auto;
+  font-size: 3rem;
+  max-width: 600px;
+  font-weight: 300;
+  text-align: center;
+}
+section.ipo h2.title span {
+  color: #01038A;
+}
+section.ipo h3 {
+  margin: 1.9rem 0;
+}
+section.ipo div > .box-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+section.ipo .circ {
+  width: 33.33%;
+  text-align: center;
+}
+
+section.aplicar .flex-aplicar {
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+}
+section.aplicar .texto {
+  text-align: center;
+}
+section.aplicar .texto h2.h2 {
+  margin: 3.6rem auto;
+  font-size: 3rem;
+  max-width: 500px;
+  font-weight: 300;
+  text-align: center;
+}
+section.aplicar .texto h2.h2 span {
+  color: #01038A;
+}
+section.aplicar .texto p.description {
+  width: 600px;
+}
+section.aplicar .image-aplicar {
+  padding: 10px;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-content: center;
+}
+section.aplicar .image-aplicar .img-aplicar {
+  width: 300px;
+  margin: 0 3px;
+  display: inline-block;
+}
+section.aplicar .image-aplicar .img-aplicar img {
+  border-radius: 1rem;
 }
 
 /*# sourceMappingURL=home.css.map */

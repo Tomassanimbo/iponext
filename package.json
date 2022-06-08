@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
 
-    "sass":"sass -w scss:styles",
+    "sass":"sass -w ./scss:./styles",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
