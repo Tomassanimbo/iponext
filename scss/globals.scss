@@ -2,6 +2,7 @@
 @import "./navbar.scss";
 @import "./buttons.scss";
 @import "./home.scss";
+@import "./empresas.scss";
 
 $color-primary: #01038A;
 $secondary: #047aed;
@@ -61,6 +62,7 @@ h6{
   line-height: 1.5;
   margin: 1rem 0;
   font-size: 2rem;
+  color: #424242;
 }
 ul, li{
   list-style: none;

@@ -17,7 +17,75 @@ export default function Home() {
       
       </div> 
 
+    </section>
+
+    <section className="barra">
+      <div className="container barra-flex">
+        <div className="info-barra">
+          + 100 empresas
+        </div>
+        <div className="info-barra">
+          + 200 investidores
+        </div>
+        <div className="info-barra">
+          + 40.000 usuários ativos
+        </div>
+      </div>
     </section> 
+
+    <section className="dicas">
+        <h1 className="title">Porque o <strong>EMAINVES<span>TIPO</span> </strong> ?</h1>
+      <div className="container grid">
+          <div className="imgam">
+            <Image className='imagens' src="/image/ipo.svg" width={500} height={300} alt="" />
+          </div>
+
+          <div className="box-dicas box-grid">
+          <div className="info-dicas">
+            <h3 className="title3">
+              como investir
+            </h3>
+            <p>
+              Um negocio de alta renda
+              com as melhores ferramentas
+              que te proporcionam um amnbiente facil.
+            </p>
+          </div>
+          <div className="info-dicas">
+            <h3 className="title3">
+              como investir
+            </h3>
+            <p>
+              Um negocio de alta renda
+              com as melhores ferramentas
+              que te proporcionam um amnbiente facil.
+            </p>
+          </div>
+          <div className="info-dicas">
+            <h3 className="title3">
+              como investir
+            </h3>
+            <p>
+              Um negocio de alta renda
+              com as melhores ferramentas
+              que te proporcionam um amnbiente facil.
+            </p>
+          </div>
+          <div className="info-dicas">
+            <h3 className="title3">
+              como investir
+            </h3>
+            <p>
+              Um negocio de alta renda
+              com as melhores ferramentas
+              que te proporcionam um amnbiente facil.
+            </p>
+          </div>
+          </div>
+      </div>
+    </section>
+
+    
 
     </>
   )

@@ -3,8 +3,12 @@
   height: 70px;
   width: 100%;
   background-color: #ffffff;
-  position: relative;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.9);
+  position: fixed;
   border-bottom: 2px solid #047aed;
+  top: 0;
+  left: 0;
+  z-index: 100;
 }
 .header .nav-flex {
   justify-content: space-between;
@@ -51,18 +55,19 @@ section.hero {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: calc(100vh - 80px);
+  height: calc(99vh - 61px);
   position: relative;
 }
 section.hero .hero-flex {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-content: center;
   height: 100%;
 }
 section.hero h1 {
-  top: -100px;
-  max-width: 400px;
+  top: -60px;
+  max-width: 500px;
   font-size: 3.6rem;
   color: #fff;
   margin-bottom: 3rem;
@@ -70,6 +75,66 @@ section.hero h1 {
 }
 section.hero h1 span {
   color: #047aed;
+}
+
+section.barra {
+  height: 70px;
+  background-color: #01038A;
+}
+section.barra .barra-flex {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 100%;
+}
+section.barra .info-barra {
+  margin-right: 50px;
+  color: #fff;
+}
+
+section.dicas {
+  padding: 70px 0;
+  border-bottom: 2px solid #999;
+}
+section.dicas .title {
+  margin-bottom: 3.6rem;
+  margin-left: 20rem;
+  font-size: 3rem;
+  font-weight: 300;
+}
+section.dicas .title span {
+  color: #01038A;
+}
+section.dicas .imagens img {
+  max-width: 100%;
+}
+section.dicas .grid {
+  position: relative;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  gap: 30px;
+  height: 100%;
+}
+section.dicas .box-grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  height: 100%;
+}
+section.dicas .box-dicas .info-dicas {
+  width: 80%;
+}
+
+section.empresa {
+  position: relative;
+  padding: 70px 0;
+  margin-top: 7.1rem;
+  background-color: red;
 }
 
 :root {
@@ -127,6 +192,7 @@ h6 {
   line-height: 1.5;
   margin: 1rem 0;
   font-size: 2rem;
+  color: #424242;
 }
 
 ul, li {
