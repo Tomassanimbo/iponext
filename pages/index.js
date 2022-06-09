@@ -288,16 +288,24 @@ export default function Home() {
 
 {/* Area relacionada com os testemunhas */}
     <section className="testemunho padding">
-      <div className="min-container">
-        <h1 className="title">
-          Testemunhas
-        </h1>
-        <div className="cards">
-          <div className="card">
-        <Image src="/image/HERO.png" width={300} height={170} alt="" />
+      <div className="min-container test-flex">
 
+          <div className="progress-bar"></div>
+          <p className='testimonial' >
+            Lorem ipsum dolor sit amet consectetur.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit corrupti, at quod hic officia odio dolores accusantium quibusdam molestias iste nemo qui tenetur harum. Cum quas voluptatem dolores. Pariatur, sint.
+            
+          </p>
+
+          <div className="card">
+              <img className='card-image'   src="/image/HERO.png" alt="" />
+              <div className="user-details">
+                <h4 className="username">
+                  Who are
+                </h4>
+                <p className="role">Marketing</p>
+              </div>
           </div>
-        </div>
       </div>
     </section>
 
@@ -315,6 +323,8 @@ export default function Home() {
       </div>
     </section>
 
+
+    
     </>
   )
 }
