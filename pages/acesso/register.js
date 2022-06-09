@@ -4,24 +4,33 @@ import Link from "next/link"
 export default function Register(){
   return (
     <>
-     <section className=" paddingd">
+     <section className="login-acesso padding">
           <div className="min-container ">
-            <h1>Login</h1>
-            <div className="login-are">
+            <div className="login-area">
               <div className="text-left">
-
+                  <h1>Obrigado por nos escolher</h1>
+                  <p>
+                  Cria a sua conta em poucos minutos, dicida voce mesmo o que fazer.
+                  </p>
               </div>
               <div className="login-acess">
                 <form action="" className="form">
                   <div className="form-control">
-                    <input type="text" placeholder="Email /Telefone" />
+                    <input type="text" placeholder="Nome" required/>
                   </div>
                   <div className="form-control">
-                    <input type="text" placeholder="Digite sua senha" />
+                    <input type="text" placeholder="Sobrenome" required/>
+                  </div>
+                  <div className="form-control">
+                    <input type="text" placeholder="Digite seu email" required/>
+                  </div>
+                  <div className="form-control">
+                    <input type="password" placeholder="Digite sua senha" required/>
                   </div>
                   <div className="form-checkbox">
-                  <label htmlFor="rem">Lembrar</label>
-                    <input id="rem" type="checkbox" placeholder="Digite sua senha" />
+                    <input id="rem" type="checkbox" placeholder="Digite sua senha"  required/>
+                  <label className="label-register" htmlFor="rem">Ao marcar esta opção concorda com os termos e as politicas de utilização,
+de acordo as normas da EMAINVEST. </label>
                     
                   </div>
                
@@ -29,7 +38,7 @@ export default function Register(){
                   <div className="account">
                     <p>tenho uma conta?</p> 
                     <Link href="/acesso">
-                      <a>fazer login</a>
+                      <a>Fazer login</a>
                     </Link>
                   </div>
                   

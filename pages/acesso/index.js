@@ -14,14 +14,14 @@ export default function Login(){
               <div className="login-acess">
                 <form action="" className="form">
                   <div className="form-control">
-                    <input type="text" placeholder="Email /Telefone" />
+                    <input type="text" placeholder="Email /Telefone" required/>
                   </div>
                   <div className="form-control">
-                    <input type="text" placeholder="Digite sua senha" />
+                    <input type="password" placeholder="Digite sua senha" required/>
                   </div>
                   <div className="form-checkbox">
                   <label htmlFor="rem">Lembrar</label>
-                    <input id="rem" type="checkbox" placeholder="Digite sua senha" />
+                    <input id="rem" type="checkbox" placeholder="Digite sua senha"  />
                     
                   </div>
                

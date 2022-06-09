@@ -39,6 +39,9 @@ section.login-acesso .min-container .login-area .login-acess .form .form-control
   height: 40px;
   padding-left: 15px;
 }
+section.login-acesso .min-container .login-area .login-acess .form .form-control input:focus {
+  border-bottom: 2px solid #01038A;
+}
 section.login-acesso .min-container .login-area .login-acess .form .form-control:nth-child(2) {
   margin-bottom: 10px;
 }
@@ -51,6 +54,10 @@ section.login-acesso .min-container .login-area .login-acess .form .form-checkbo
   font-size: 1.3rem;
   margin-right: 5px;
   color: #047aed;
+}
+section.login-acesso .min-container .login-area .login-acess .form .form-checkbox .label-register {
+  font-size: 1rem;
+  padding: 0 5px;
 }
 section.login-acesso .min-container .login-area .login-acess .form input[type=submit] {
   width: 100%;
@@ -67,15 +74,18 @@ section.login-acesso .min-container .login-area .login-acess .form input[type=su
 }
 section.login-acesso .min-container .login-area .login-acess .form .account {
   display: flex;
-  justify-content: start;
-  align-items: center;
+  align-items: start;
 }
 section.login-acesso .min-container .login-area .login-acess .form .account p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin: 0 10px 0 0;
+  color: #ce4f00;
 }
 section.login-acesso .min-container .login-area .login-acess .form .account a {
   color: #047aed;
+}
+section.login-acesso .min-container .login-area .login-acess .form .account a:hover {
+  color: #01038A;
 }
 
 /*# sourceMappingURL=acesso.css.map */

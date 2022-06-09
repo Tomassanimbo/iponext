@@ -52,6 +52,9 @@ section.login-acesso{
               height: 40px;
               padding-left: 15px;
 
+              &:focus{
+                border-bottom: 2px solid #01038A;
+              }
             }
 
             &:nth-child(2){
@@ -67,6 +70,10 @@ section.login-acesso{
               font-size: 1.3rem;
               margin-right: 5px;
               color: #047aed;
+            }
+            .label-register{
+              font-size: 1rem;
+              padding: 0 5px;
             }
           }
           input[type="submit"]{
@@ -86,14 +93,18 @@ section.login-acesso{
 
           .account{
             display: flex;
-            justify-content: start;
-            align-items: center;
+            // justify-content: start;
+            align-items: start;
             p{
-              font-size: 1.2rem;
+              font-size: 1.3rem;
               margin: 0 10px 0 0;
+              color: #ce4f00;
             }
             a{
               color: #047aed;
+              &:hover{
+                color: #01038A;
+              }
             }
           }
         }
