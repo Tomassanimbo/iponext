@@ -2,6 +2,8 @@ export default function Footer(){
   return(
     <>
     {/* aqui comeca o footer 1 */}
+      <footer className="rodape">
+
       <section className="footer-1 padding-20">
             <div className="container">
            
@@ -84,6 +86,8 @@ export default function Footer(){
           
           </div>
     </section> 
+
+      </footer>
     </>
   )
 }

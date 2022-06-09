@@ -14,7 +14,7 @@ export default function Layout({children}){
       <title>EMAINVEST IPO</title>
     </Head>
       <Navbar/>
-        <div className="hight">{children}</div>
+        <div className="">{children}</div>
       <Footer/>
     </>
   )

@@ -3,7 +3,7 @@ section.hero {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: calc(99vh - 61px);
+  height: calc(96vh - 100px);
   position: relative;
   z-index: 1;
 }
