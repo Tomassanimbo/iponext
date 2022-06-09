@@ -4,6 +4,7 @@
 @import "./home.scss";
 @import "./empresas.scss";
 @import "./empresa.scss";
+@import "./footer.scss";
 
 $color-primary: #01038A;
 $secondary: #047aed;
@@ -43,6 +44,10 @@ html,body{
 
 .padding{
   padding: 70px 0;
+}
+
+.padding-20{
+  padding: 20px 0;
 }
 .container{
   margin: 0 auto;
