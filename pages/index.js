@@ -288,8 +288,8 @@ export default function Home() {
 
 {/* Area relacionada com os testemunhas */}
     <section className="testemunho padding">
+          <h1 className='title'>O que eles dizem</h1>
       <div className="min-container test-flex">
-
           <div className="progress-bar"></div>
           <p className='testimonial' >
             Lorem ipsum dolor sit amet consectetur.

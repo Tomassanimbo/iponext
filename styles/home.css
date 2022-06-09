@@ -250,6 +250,11 @@ section.parceiros .min-container .parce-slader:first-child {
 section.testemunho {
   background-color: rgba(0, 0, 54, 0.9411764706);
 }
+section.testemunho .title {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
 section.testemunho .min-container {
   max-width: 760px;
   border-radius: 15px;
