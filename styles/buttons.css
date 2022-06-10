@@ -44,4 +44,16 @@ button.reset a {
   border-top: 0;
 }
 
+.btn-busca {
+  height: 40px;
+  width: 125px;
+  background-color: #047aed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-busca:hover {
+  background-color: #01038A;
+}
+
 /*# sourceMappingURL=buttons.css.map */

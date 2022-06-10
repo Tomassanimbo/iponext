@@ -6,6 +6,7 @@
 @import "./empresa.scss";
 @import "./footer.scss";
 @import "./acesso.scss";
+@import "./details-empresa.scss";
 
 $color-primary: #01038A;
 $secondary: #047aed;
@@ -27,6 +28,7 @@ $secondary: #047aed;
 }
 
 html,body{
+  height: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -98,6 +100,7 @@ p{
 }
 ul, li{
   list-style: none;
+  transition: all ease-in 0.3s;
 
 }
 

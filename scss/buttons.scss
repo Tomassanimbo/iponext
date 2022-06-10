@@ -55,3 +55,18 @@ button.reset{
 
   }
 }
+
+
+.btn-busca{
+  height: 40px;
+  width: 125px;
+  background-color:#047aed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover{
+  background-color: #01038A;
+
+  }
+
+}
