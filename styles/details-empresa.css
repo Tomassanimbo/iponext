@@ -1,5 +1,9 @@
 section.detalhes-company .container .back {
   cursor: pointer;
 }
+section.detalhes-company .container .details-company {
+  display: grid;
+  grid-template-columns: auto auto;
+}
 
 /*# sourceMappingURL=details-empresa.css.map */

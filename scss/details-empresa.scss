@@ -3,5 +3,11 @@ section.detalhes-company{
     .back{
       cursor: pointer;
     }
+
+
+    .details-company{
+      display: grid;
+      grid-template-columns: auto auto;
+    }
   }
 }
