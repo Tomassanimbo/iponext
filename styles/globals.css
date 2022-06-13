@@ -861,6 +861,20 @@ section.detalhes-company .container .details-company .info-company .top .dados-d
   margin: 0 25px;
   color: #424242;
 }
+section.detalhes-company .container .details-company .info-company .top .infoCompany {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+section.detalhes-company .container .details-company .info-company .top .infoCompany .cardDetails {
+  text-align: center;
+  border: 1px solid #000000;
+}
+section.detalhes-company .container .details-company .info-company .top .infoCompany .cardDetails h2 {
+  background-color: #ccc;
+  padding: 0;
+  margin: 0;
+}
 section.detalhes-company .container .details-company .text-company {
   grid-column: 1/3;
   padding: 25px 25px 25px 5px;
@@ -877,9 +891,37 @@ section.detalhes-company .container .details-company .button-invest {
   display: flex;
   width: 100%;
   text-align: center;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   grid-column: 3/6;
+}
+section.detalhes-company .container .details-company .button-invest .posicao {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section.detalhes-company .container .details-company .button-invest .posicao .avaliacao {
+  margin: 20px 45px;
+}
+
+.container section.descriptioCompany {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 0px 10px;
+}
+.container section.descriptioCompany .headerTab {
+  border-left: 8px solid #424242;
+  height: 200px;
+}
+.container section.descriptioCompany .headerTab .visaoCompay {
+  padding: 8px;
+}
+.container section.descriptioCompany .headerTab .active {
+  background: rgb(0, 60, 213);
+  color: #fff;
 }
 
 :root {

@@ -1,6 +1,9 @@
 
 import Link from "next/link";
 import Image from "next/image";
+// import "../../public/scripts/jquery-3.6.0.min.js"
+import Script from "next/script"
+
 
 export default function Details(){
 
@@ -41,7 +44,7 @@ export default function Details(){
                     </ul>
                   </div>
                   <div className="dados-day">
-                  <ul>
+                    <ul>
                       <li>Quinta feira</li>
                       <li>26</li>
                       <li>setembro</li>
@@ -51,7 +54,38 @@ export default function Details(){
                       <li>5</li>
                     </ul>
                   </div>
+
+                  <div className="infoCompany">
+                    <div className="cardDetails">
+                    {/* Preco por accao */}
+                      <h2>
+                        Peco por accaoo
+                      </h2>
+                      <h3>360kz</h3>
+                    </div>
+
+                    {/* Investimento Minimo */}
+                    <div className="cardDetails">
+                      <h2>
+                        Investimento minimo
+                      </h2>
+                      <h3>360kz</h3>
+                    </div>
+                    <div className="cardDetails">
+                      <h2>
+                        Peco por accaoo
+                      </h2>
+                      <h3>360kz</h3>
+                    </div>
+                    <div className="cardDetails">
+                      <h2>
+                        Peco por accaoo
+                      </h2>
+                      <h3>360kz</h3>
+                    </div>
+                  </div>
                 </div>
+
               </div>
 
               <div className="text-company">
@@ -60,14 +94,80 @@ export default function Details(){
                 </p>
               </div>
               <div className="button-invest">
+                  <div className="posicao">
+                    <div className="avaliacao">
+                        <h3>Avaliacao</h3>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                    </div>
+                    <div className="avaliacao">
+                      <h3>Raking</h3>
+                      <p>6</p>
+                    </div>
+                  </div>
                 <button className="btn-busca btn-primary" >invest</button>
               </div>
             </section>
 
+            <section className="descriptioCompany">
+              <div className="headerTab">
+                  <div className="visaoCompay active">
+                    <dir>Visao Global</dir>
+                  </div>
+                  <div className="visaoCompay">
+                    <dir>Visao Global</dir>
+                  </div>
+                  <div className="visaoCompay">
+                    <dir>Visao Global</dir>
+                  </div>
+              </div>
 
-            
+              <div className="TextTab">
+              <div id="teu"></div>
+                <div className="tab1 text-1">
+                  <h2>Razões para investir</h2>
+                  <p className="description" >
+
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                      Aut voluptatem ipsa libero magni exercitationem dolores ab dicta dolorum architecto. Fuga sed, 
+                      totam similique sunt nihil blanditiis reiciendis recusandae pariatur nesciunt dolorum. 
+                      Quibusdam commodi nisi dolorem vel omnis, 
+                      earum porro eum, unde esse expedita quo atque.
+                  </p>
+                </div>
+                <div className="tab1 text-1">
+                  <h2>Razões para investir</h2>
+                  <p className="description" >
+
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                      Aut voluptatem ipsa libero magni exercitationem dolores ab dicta dolorum architecto. Fuga sed, 
+                      totam similique sunt nihil blanditiis reiciendis recusandae pariatur nesciunt dolorum. 
+                      Quibusdam commodi nisi dolorem vel omnis, 
+                      earum porro eum, unde esse expedita quo atque.
+                  </p>
+                </div>
+                <div className="tab1 text-1">
+                  <h2>Razões para investir</h2>
+                  <p className="description" >
+
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                      Aut voluptatem ipsa libero magni exercitationem dolores ab dicta dolorum architecto. Fuga sed, 
+                      totam similique sunt nihil blanditiis reiciendis recusandae pariatur nesciunt dolorum. 
+                      Quibusdam commodi nisi dolorem vel omnis, 
+                      earum porro eum, unde esse expedita quo atque.
+                  </p>
+                </div>
+              </div>
+
+            </section>
+
+
         </div>
       </section>
+
+      {/* <Script src="scripts/main.js" /> */}
+
     </>
   );
 }

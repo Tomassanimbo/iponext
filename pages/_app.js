@@ -1,12 +1,20 @@
 // import "../styles/globals.css"
 import "../styles/globals.css"
+import "../public/scripts/main";
 
 import Layout from "../pages/components/Layout"
+import Head from "next/head";
+import Script from "next/script";
+
+
+
 export default function App({Component, ...pageProps}){
-  return (
+  return (<>
+      {/* <Script src="scripts/main.js" /> */}
     <Layout>
       <Component {...pageProps}/>
-    </Layout>
+    </Layout></>
 
   );
 }
+ 
