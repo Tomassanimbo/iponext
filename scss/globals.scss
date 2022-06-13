@@ -7,6 +7,7 @@
 @import "./footer.scss";
 @import "./acesso.scss";
 @import "./details-empresa.scss";
+@import "./getmoney.scss";
 
 $color-primary: #01038A;
 $secondary: #047aed;
@@ -70,6 +71,13 @@ body{
   max-width: 600px;
 
 }
+
+.container-500{
+  margin: 0 auto;
+  padding: 0 2%;
+  width: 100%;
+  max-width: 500px;
+}
 // Comeaca o nav
 
 a{
@@ -85,7 +93,8 @@ h4,
 h5,
 h6{
   line-height: 1.5;
-  margin: .5rem 0;
+  margin: 0;
+  padding: 0;
   font-size: 2rem;
   color: #424242;
   display: block;

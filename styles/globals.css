@@ -81,9 +81,11 @@ button.reset a {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #fff;
 }
 .btn-busca:hover {
   background-color: #01038A;
+  color: #fff;
 }
 
 section.hero {
@@ -924,6 +926,53 @@ section.detalhes-company .container .details-company .button-invest .posicao .av
   color: #fff;
 }
 
+section.tirarFundo .container-500 {
+  position: relative;
+  margin-top: 90px;
+  padding: 0;
+}
+section.tirarFundo .container-500 .texto h1, section.tirarFundo .container-500 .texto p {
+  text-align: center;
+  margin: 1rem 0;
+}
+section.tirarFundo .container-500 .texto p {
+  font-size: 1.2rem;
+}
+section.tirarFundo .container-500 .boxMoney {
+  text-align: center;
+}
+section.tirarFundo .container-500 .boxMoney h3 {
+  background-color: #ccc;
+}
+section.tirarFundo .container-500 .boxMoney .form {
+  text-align: center;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+section.tirarFundo .container-500 .boxMoney .form .form-control {
+  margin: 10px 0;
+  display: flex;
+}
+section.tirarFundo .container-500 .boxMoney .form .form-control [type=text] {
+  width: 60px;
+  display: inline-block;
+  padding: 1rem;
+  background-color: #ccc;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: center;
+}
+section.tirarFundo .container-500 .boxMoney .form .form-control [type=number] {
+  padding: 1rem;
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid #01038A;
+}
+
 :root {
   font-size: 62.5%;
 }
@@ -986,6 +1035,13 @@ body {
   max-width: 600px;
 }
 
+.container-500 {
+  margin: 0 auto;
+  padding: 0 2%;
+  width: 100%;
+  max-width: 500px;
+}
+
 a {
   text-decoration: none;
   color: #ccc;
@@ -1000,7 +1056,8 @@ h4,
 h5,
 h6 {
   line-height: 1.5;
-  margin: 0.5rem 0;
+  margin: 0;
+  padding: 0;
   font-size: 2rem;
   color: #424242;
   display: block;

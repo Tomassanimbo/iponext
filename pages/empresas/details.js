@@ -106,7 +106,10 @@ export default function Details(){
                       <p>6</p>
                     </div>
                   </div>
-                <button className="btn-busca btn-primary" >invest</button>
+                {/* <button className="btn-busca btn-primary" >invest</button> */}
+                  <Link href="/empresas/invest" >
+                        <button className="btn-busca btn-primary" >invest</button>
+                  </Link>
               </div>
             </section>
 

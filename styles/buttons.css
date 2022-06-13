@@ -51,9 +51,11 @@ button.reset a {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #fff;
 }
 .btn-busca:hover {
   background-color: #01038A;
+  color: #fff;
 }
 
 /*# sourceMappingURL=buttons.css.map */

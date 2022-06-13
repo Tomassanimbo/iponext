@@ -1,0 +1,54 @@
+section.tirarFundo{
+  .container-500{
+    position: relative;
+    // top: 90px;
+    margin-top: 90px;
+    padding: 0;
+    .texto{
+      h1,p{
+        text-align: center;
+        margin: 1rem 0;
+    
+    }
+    p{
+        font-size: 1.2rem;
+    }
+  }
+  .boxMoney{
+    text-align: center;
+    h3{
+      background-color: #ccc;
+    }
+   
+    .form{
+      text-align: center;
+      width: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      .form-control{
+        margin: 10px 0;
+       display: flex;
+        [type='text']{
+            width: 60px;
+            display: inline-block;
+            padding: 1rem;
+            background-color: #ccc;
+            font-size: 1.6rem;
+            font-weight: 600;
+            text-align: center;
+        }
+        [type='number']{
+          padding: 1rem;
+            width: 100%;
+            height: 40px;
+            border-bottom: 1px solid $color-primary;
+        }
+      }
+    }
+  }
+      
+    }
+  }
