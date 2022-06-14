@@ -26,7 +26,7 @@ section.busca .min-container h1 {
   text-transform: capitalize;
 }
 section.busca .min-container .form-busca {
-  background-color: #01038A;
+  background-color: #383BFF;
 }
 section.busca .min-container .form-busca .form-control {
   position: relative;
@@ -59,12 +59,12 @@ section.filter-busca .container .header-filter ul {
 }
 section.filter-busca .container .header-filter ul li {
   margin: 0 10px;
-  border-left: 1px solid #01038A;
-  border-right: 1px solid #01038A;
+  border-left: 1px solid #383BFF;
+  border-right: 1px solid #383BFF;
   padding: 0 15px;
 }
 section.filter-busca .container .header-filter ul li:hover {
-  background-color: #01038A;
+  background-color: #383BFF;
   color: #fff;
 }
 section.filter-busca .container .header-filter ul li a {
@@ -73,7 +73,7 @@ section.filter-busca .container .header-filter ul li a {
   color: #fff;
 }
 section.filter-busca .container .header-filter ul li a:hover {
-  background-color: #01038A;
+  background-color: #383BFF;
   color: #fff;
 }
 
@@ -125,7 +125,7 @@ section.lista-empresa .container .company .details-company {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  background-color: #01038A;
+  background-color: #383BFF;
   color: #fff;
   padding: 10px;
   margin: 0;

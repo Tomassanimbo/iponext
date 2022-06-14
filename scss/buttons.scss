@@ -18,12 +18,12 @@ button.reset{
 
 .btn-primary{
   color: #fff;
-  background-color: #01038A;
+  background-color: #383BFF;
   cursor: pointer;
   
   &:hover{
     
-    background-color: #047aed;
+    background-color: #01038A;
     transform: translateY(-2px);
   }
 
@@ -46,7 +46,7 @@ button.reset{
   padding: 5px;
   width: 100%;
   color: #fff;
-  background-color:#047aed;
+  background-color:#383BFF;
 
   &:hover{
   background-color: #01038A;
@@ -60,7 +60,7 @@ button.reset{
 .btn-busca{
   height: 40px;
   width: 125px;
-  background-color:#047aed;
+  background-color:#383BFF;
   display: flex;
   justify-content: center;
   align-items: center;

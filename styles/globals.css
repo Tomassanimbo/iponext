@@ -46,11 +46,11 @@ button.reset a {
 
 .btn-primary {
   color: #fff;
-  background-color: #01038A;
+  background-color: #383BFF;
   cursor: pointer;
 }
 .btn-primary:hover {
-  background-color: #047aed;
+  background-color: #01038A;
   transform: translateY(-2px);
 }
 
@@ -66,7 +66,7 @@ button.reset a {
   padding: 5px;
   width: 100%;
   color: #fff;
-  background-color: #047aed;
+  background-color: #383BFF;
 }
 .btn-2:hover {
   background-color: #01038A;
@@ -77,7 +77,7 @@ button.reset a {
 .btn-busca {
   height: 40px;
   width: 125px;
-  background-color: #047aed;
+  background-color: #383BFF;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -132,8 +132,7 @@ section.barra .info-barra {
 
 section.dicas {
   padding: 70px 0;
-  background: linear-gradient(180deg, rgba(1, 3, 138, 0.33) 0%, rgba(4, 122, 237, 0.4) 100%);
-  background: linear-gradient(180deg, rgba(1, 3, 138, 0.72) 0%, rgba(4, 122, 237, 0.4) 100%);
+  background-color: #D6D6F4;
 }
 section.dicas h1.title-dicas {
   margin-bottom: 3.6rem;
@@ -143,7 +142,7 @@ section.dicas h1.title-dicas {
   color: #fff;
 }
 section.dicas h1.title-dicas span {
-  color: #01038A;
+  color: #383BFF;
 }
 section.dicas .info-dicas h3.title3 {
   color: #fff;
@@ -192,7 +191,7 @@ section.ipo h2.title {
   text-align: center;
 }
 section.ipo h2.title span {
-  color: #01038A;
+  color: #383BFF;
 }
 section.ipo h3 {
   margin: 1.9rem 0;
@@ -209,7 +208,7 @@ section.ipo .circ {
 }
 
 section.aplicar {
-  border-bottom: 1px solid #01038A;
+  border-bottom: 1px solid #383BFF;
 }
 section.aplicar .flex-aplicar {
   display: flex;
@@ -228,7 +227,7 @@ section.aplicar .texto h2.h2 {
   text-align: center;
 }
 section.aplicar .texto h2.h2 span {
-  color: #01038A;
+  color: #383BFF;
 }
 section.aplicar .texto p.description {
   width: 600px;
@@ -277,7 +276,7 @@ section.investir .container .financiamento .financ-details .financ-box {
 }
 
 section.empresas {
-  border-bottom: 1px solid #01038A;
+  border-bottom: 1px solid #383BFF;
 }
 section.empresas .container {
   padding: 25px 0;
@@ -295,7 +294,7 @@ section.empresas .container .box-company {
 }
 
 section.processo {
-  border-bottom: 1px solid #01038A;
+  border-bottom: 1px solid #383BFF;
 }
 section.processo .container {
   position: relative;
@@ -310,7 +309,7 @@ section.processo .container .text-left {
   max-width: 600px;
 }
 section.processo .container .proce-image {
-  border-bottom: 6px solid #01038A;
+  border-bottom: 6px solid #383BFF;
   position: absolute;
   top: -86px;
   right: 99px;
@@ -397,7 +396,7 @@ section.testemunho .min-container .user-details .role {
 }
 
 section.news-lether {
-  background-color: #047aed;
+  background-color: #383BFF;
   text-align: center;
 }
 section.news-lether .min-container {
@@ -456,7 +455,7 @@ section.busca .min-container h1 {
   text-transform: capitalize;
 }
 section.busca .min-container .form-busca {
-  background-color: #01038A;
+  background-color: #383BFF;
 }
 section.busca .min-container .form-busca .form-control {
   position: relative;
@@ -489,12 +488,12 @@ section.filter-busca .container .header-filter ul {
 }
 section.filter-busca .container .header-filter ul li {
   margin: 0 10px;
-  border-left: 1px solid #01038A;
-  border-right: 1px solid #01038A;
+  border-left: 1px solid #383BFF;
+  border-right: 1px solid #383BFF;
   padding: 0 15px;
 }
 section.filter-busca .container .header-filter ul li:hover {
-  background-color: #01038A;
+  background-color: #383BFF;
   color: #fff;
 }
 section.filter-busca .container .header-filter ul li a {
@@ -503,7 +502,7 @@ section.filter-busca .container .header-filter ul li a {
   color: #fff;
 }
 section.filter-busca .container .header-filter ul li a:hover {
-  background-color: #01038A;
+  background-color: #383BFF;
   color: #fff;
 }
 
@@ -555,7 +554,7 @@ section.lista-empresa .container .company .details-company {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  background-color: #01038A;
+  background-color: #383BFF;
   color: #fff;
   padding: 10px;
   margin: 0;
@@ -757,8 +756,8 @@ section.detalhes-company .container .informar .heart {
   right: 0;
 }
 section.detalhes-company .container .informar .heart:hover {
-  border-left: 2px solid #01038A;
-  border-bottom: 2px solid #01038A;
+  border-left: 2px solid #383BFF;
+  border-bottom: 2px solid #383BFF;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
 }
 section.detalhes-company .container .informar .back {
@@ -769,17 +768,17 @@ section.detalhes-company .container .informar .back {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  color: #01038A;
+  color: #383BFF;
 }
 section.detalhes-company .container .informar .back:hover {
-  border-left: 2px solid #01038A;
-  border-bottom: 2px solid #01038A;
+  border-left: 2px solid #383BFF;
+  border-bottom: 2px solid #383BFF;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
 }
 section.detalhes-company .container .informar .back i {
   font-size: 3rem;
   width: 50px;
-  color: #01038A;
+  color: #383BFF;
 }
 section.detalhes-company .container .name-company {
   display: flex;
@@ -807,8 +806,8 @@ section.detalhes-company .container .details-company .image {
   grid-column: 1/2;
 }
 section.detalhes-company .container .details-company .image:hover {
-  border-left: 2px solid #01038A;
-  border-bottom: 2px solid #01038A;
+  border-left: 2px solid #383BFF;
+  border-bottom: 2px solid #383BFF;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.6);
 }
 section.detalhes-company .container .details-company .number-invest {
@@ -821,8 +820,8 @@ section.detalhes-company .container .details-company .number-invest h1 {
   font-size: 10rem;
 }
 section.detalhes-company .container .details-company .number-invest:hover {
-  border-left: 2px solid #01038A;
-  border-bottom: 2px solid #01038A;
+  border-left: 2px solid #383BFF;
+  border-bottom: 2px solid #383BFF;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.6);
 }
 section.detalhes-company .container .details-company .info-company {
@@ -832,8 +831,8 @@ section.detalhes-company .container .details-company .info-company {
   padding: 5px 25px 25px 23px;
 }
 section.detalhes-company .container .details-company .info-company:hover {
-  border-left: 2px solid #01038A;
-  border-bottom: 2px solid #01038A;
+  border-left: 2px solid #383BFF;
+  border-bottom: 2px solid #383BFF;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.6);
 }
 section.detalhes-company .container .details-company .info-company .top {
@@ -884,12 +883,12 @@ section.detalhes-company .container .details-company .text-company {
   transition: all ease-in-out 0.2s;
 }
 section.detalhes-company .container .details-company .text-company:hover {
-  border-left: 2px solid #01038A;
-  border-bottom: 2px solid #01038A;
+  border-left: 2px solid #383BFF;
+  border-bottom: 2px solid #383BFF;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.6);
 }
 section.detalhes-company .container .details-company .button-invest {
-  border-bottom: 2px solid #01038A;
+  border-bottom: 2px solid #383BFF;
   display: flex;
   width: 100%;
   text-align: center;
@@ -970,7 +969,7 @@ section.tirarFundo .container-500 .boxMoney .form .form-control [type=number] {
   padding: 1rem;
   width: 100%;
   height: 40px;
-  border-bottom: 1px solid #01038A;
+  border-bottom: 1px solid #383BFF;
 }
 
 :root {
@@ -1059,7 +1058,7 @@ h6 {
   margin: 0;
   padding: 0;
   font-size: 2rem;
-  color: #424242;
+  color: #444444;
   display: block;
 }
 
