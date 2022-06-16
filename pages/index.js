@@ -1,14 +1,30 @@
+/* eslint-disable @next/next/no-sync-scripts */
+/* eslint-disable react/jsx-no-comment-textnodes */
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import Script from 'next/script'
 // import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return ( 
     <>
-    <section className = "hero" >
-      <div className = "container hero-flex" >
+   <Head>
+      <link rel="shortcut icon" href=""/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossOrigin="anonymous" referrerpolicy="no-referrer" />
+      <title>EMAINVEST IPO</title>
+
+      {/* Jquey script usando o CDNs */}
+
+      {/* <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css"/> */}
       
+    </Head>
+
+    <section className = "hero" >
+
+      <div className = "container hero-flex" >
+
+    
       <h1> Uma maneira incrivel de ver seu negocio crescer é com a <span>EMAINVEST</span> </h1> 
       
       <div className="button">

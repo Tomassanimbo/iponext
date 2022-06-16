@@ -1,6 +1,6 @@
 section.hero{
   // margin-top: 1.9rem;
-  background:linear-gradient(94deg, rgba(0,0,0,0.5) 0%, rgba(82,85,251,0.25253851540616246) 100%), url("../public/image/HERO.jpg");
+  background: $corFundoLinear, url("../public/image/HERO.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -20,19 +20,19 @@ section.hero{
     top: -60px;
     max-width:500px;
     font-size: 3.6rem;
-    color: #fff;
+    color: $corWhite;
     margin-bottom: 3rem;
     z-index: 100;
 
     span{
-      color: #047aed;
+      color: $corPrimaria;
     }
   }
 
 }
 section.barra{
   height: 70px;
-  background-color: #01038A;
+  background-color: $corSecondary;
   .barra-flex{
     display: flex;
     align-items: center;
@@ -41,39 +41,36 @@ section.barra{
 
   .info-barra{
     margin-right: 50px;
-    color: #fff;
+    color: $corWhite;
   }
 }
 
 section.dicas{
   padding: 70px 0;
-  // border-bottom: 2px solid #999;
-  // background: linear-gradient(180deg, rgba(1, 3, 138, 0.33) 0%, rgba(4, 122, 237, 0.4) 100%);
-  // background: linear-gradient(180deg, rgba(1, 3, 138, 0.72) 0%, rgba(4, 122, 237, 0.4) 100%);
-  background-color: #D6D6F4;
+  background-color: $corBackground-1;
 
   h1.title-dicas{
     margin-bottom: 3.6rem;
     margin-left: 20rem ;
     font-size: 3rem;
     font-weight: 300;
-    color: #fff;
+    color: $corWhite;
 
   
 
     span{
-      color: #383BFF;
+      color: $corPrimaria;
     }
   }
 
   .info-dicas{
     
     h3.title3{
-      color: #fff;
+      color: $corWhite;
     }
 
     p{
-      color: #fff;
+      color: $corWhite;
     }
   }
   .imagens{
@@ -122,9 +119,8 @@ section.ipo{
     max-width: 600px;
     font-weight: 300;
     text-align: center;
-    // color: #fff;
     span{
-      color: #383BFF;
+      color: $corPrimaria;
     }
   }
   h3{
@@ -149,14 +145,12 @@ section.ipo{
 // Estilos da area aplicar
 
 section.aplicar{
-  border-bottom: 1px solid #383BFF;
+  border-bottom: 1px solid $corPrimaria;
 
   .flex-aplicar{
     display: flex;
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    // justify-content: center;
-    // align-items: center;
     height: 100%;
     
   }
@@ -170,7 +164,7 @@ section.aplicar{
     font-weight: 300;
     text-align: center;
     span{
-      color: #383BFF;
+      color: $corPrimaria;
     }
   }
 
@@ -198,10 +192,8 @@ section.aplicar{
 
 // Aqui vai os estilos da area investir
 section.investir{
-  // background-color: #047aed;
-  // background: linear-gradient(180deg, rgba(4, 122, 237, 0.52) 0%, rgba(4, 122, 237, 0.4) 100%);
-  background: linear-gradient(180deg, rgba(1, 3, 138, 0.33) 0%, rgba(4, 122, 237, 0.4) 100%);
-  
+
+  background: $corGradient;
   .container{
     display: flex;
     flex-direction: column ;
@@ -214,7 +206,6 @@ section.investir{
       align-items: center;
       height: 100%;
       h3,p,h1{
-        // color: #fff;
         margin-bottom: 3rem;
       }
      
@@ -224,7 +215,7 @@ section.investir{
         .financ-box{
           width: 350px;
           height: 100%;
-          background-color: #fff;
+          background-color: $corWhite;
         }
       }
     }
@@ -238,14 +229,13 @@ section.investir{
 // estilos para section empresas
 
 section.empresas{
-  border-bottom: 1px solid #383BFF;
+  border-bottom: 1px solid $corPrimaria;
   .container{
     padding: 25px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100%;
-    // border-bottom: 1px solid #01038A;
     
     .box-company{
       display: flex;
@@ -262,14 +252,13 @@ section.empresas{
 
 section.processo{
   
-  border-bottom: 1px solid #383BFF;
+  border-bottom: 1px solid $corPrimaria;
   .container{
     position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
     min-height: 40vh;
-    // height: 100%;
     gap: 25px;
     
     
@@ -278,7 +267,7 @@ section.processo{
       max-width: 600px;
     }
     .proce-image{
-      border-bottom: 6px solid #383BFF;
+      border-bottom: 6px solid $corPrimaria;
       position: absolute;
       // position: relative;
       top: -86px;
@@ -294,7 +283,7 @@ section.processo{
 // Area de+ Nossos parceiros 
 
 section.parceiros{
-  background-color: #01038A;
+  background-color: $corSecondary;
   h1.title{
     text-align: center;
     color: #fff;
@@ -325,11 +314,10 @@ section.testemunho{
 
   .title{
     text-align: center;
-    color: #fff;
+    color: $corWhite;
     text-transform: uppercase;
   }
-  // background-color: #01038af0;
-  background-color: #000036f0;
+  background-color: $corDark;
   .min-container{
     max-width: 760px;
     // background-color: #ff8181f0;
@@ -337,11 +325,11 @@ section.testemunho{
     margin: 10px auto;
     padding: 30px 30px;
     position: relative;
-    box-shadow: 0px 2px 10px rgba(0,0,0,0.5);
+    box-shadow: 0px 2px 10px $corRgba;
 
     .progress-bar{
       height: 4px;
-      background-color: #fff;
+      background-color: $corWhite;
       width: 100%;
       animation: barra 10s linear infinite;
       transform-origin: left;
@@ -355,7 +343,7 @@ section.testemunho{
 
     .testimonial{
       line-height: 1.5;
-      color: #fff;
+      color: $corWhite;
       margin: 1rem 0;
       text-align: justify;
     }
@@ -374,13 +362,13 @@ section.testemunho{
 
     .user-details{
       margin-left: 23px;
-      color:  #fff;
+      color:  $corWhite;
       .username{
         margin:  2px 0;
-        color:  #fff;
+        color:  $corWhite;
       }
       .role{
-        color:  #fff;
+        color:  $corWhite;
         margin: 1px 0;
       }
     }
@@ -391,7 +379,7 @@ section.testemunho{
 // area de actualizacoes de informacoes
 
 section.news-lether{
-  background-color: #383BFF;
+  background-color: $corPrimaria;
   text-align: center;
   .min-container{
     display: flex;
@@ -399,7 +387,7 @@ section.news-lether{
     align-items: center;
     height: 100%;
   h1.title{
-    color: #fff;
+    color: $corWhite;
   }
   .form{
     width: 700px;

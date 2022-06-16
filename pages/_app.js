@@ -1,7 +1,5 @@
 // import "../styles/globals.css"
 import "../styles/globals.css"
-import "../public/scripts/main";
-
 import Layout from "../pages/components/Layout"
 import Head from "next/head";
 import Script from "next/script";
