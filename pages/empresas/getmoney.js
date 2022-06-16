@@ -1,10 +1,13 @@
 
 import Link from "next/link"
 import Image from "next/image"
+import Script from "next/script";
 
 export default function GetMoney(){
   return (
     <>
+
+    <Script src="/scripts/main.js" strategy="lazyOnload" ></Script>
       <div id="Money">
         <section className="tirarFundo padding" >
           <div className="container">

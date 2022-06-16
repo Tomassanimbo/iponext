@@ -1,5 +1,7 @@
+
+
 import { Html, Head, Main, NextScript } from 'next/document'
-import Script from 'next/script'
+import Script from 'next/script';
 
 export default function Document() {
   return (
@@ -9,9 +11,9 @@ export default function Document() {
         <Main />
         <NextScript />
         <Script
-          src="/scripts/main.js"
+          src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js"
           strategy="beforeInteractive"
-        />
+        ></Script>
       </body>
     </Html>
   )

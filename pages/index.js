@@ -4,6 +4,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import Script from 'next/script'
+
 // import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -16,7 +17,7 @@ export default function Home() {
 
       {/* Jquey script usando o CDNs */}
 
-      {/* <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css"/> */}
+      <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css"/>
       
     </Head>
 
