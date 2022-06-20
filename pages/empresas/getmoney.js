@@ -160,11 +160,11 @@ export default function GetMoney(){
         <section className="paginacao padding-20">
           <div className="container">
             <div className="paginas">
+              <span>Prev</span>
               <span>1</span>
-              <span>1</span>
-              <span>1</span>
-              <span>1</span>
-              <span>1</span>
+              <span className="active" >2</span>
+              <span>3</span>
+              <span>Next</span>
             </div>
 
             <div className="impressao">
@@ -173,7 +173,7 @@ export default function GetMoney(){
                     <input type="number" placeholder="10" name="" id="" min={0} max={25} />
                     <h4>Max<span>25</span></h4>
                   </div>
-                  <button className="btn primary" >imprimir</button>  
+                  <button className="btn btn-primary" >imprimir</button>  
               </form>
           </div>
 

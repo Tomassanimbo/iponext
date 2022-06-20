@@ -1,61 +1,17 @@
-.btn {
-  padding: 1rem 5rem;
-  border: 0;
-  font-weight: 300;
-  border-radius: 3rem;
-  margin-right: 1.6rem;
-  height: 100%;
-}
+/* Error: Undefined variable.
+ *    ,
+ * 20 |   background-color: $corPrimaria;
+ *    |                     ^^^^^^^^^^^^
+ *    '
+ *   scss\buttons.scss 20:21  root stylesheet */
 
-button.reset a {
-  padding: 0;
-  margin: 0;
-  color: #fff;
-  line-height: 0;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 20 \2502    background-color: $corPrimaria;\d\a    \2502                      ^^^^^^^^^^^^\a    \2575 \a   scss\\buttons.scss 20:21  root stylesheet";
 }
-
-.btn-primary {
-  color: #fff;
-  background-color: #383BFF;
-  cursor: pointer;
-}
-.btn-primary:hover {
-  background-color: #01038A;
-  transform: translateY(-2px);
-}
-
-.secondary {
-  border: 1px solid transparent;
-}
-.secondary:hover {
-  color: #fff;
-  border: 1px solid #fff;
-}
-
-.btn-2 {
-  padding: 5px;
-  width: 100%;
-  color: #fff;
-  background-color: #383BFF;
-}
-.btn-2:hover {
-  background-color: #01038A;
-  border: 1px solid #fff;
-  border-top: 0;
-}
-
-.btn-busca {
-  height: 40px;
-  width: 125px;
-  background-color: #383BFF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-}
-.btn-busca:hover {
-  background-color: #01038A;
-  color: #fff;
-}
-
-/*# sourceMappingURL=buttons.css.map */

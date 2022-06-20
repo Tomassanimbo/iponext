@@ -12,6 +12,5 @@ export default function Invest(){
           <h1>Area de investimento </h1>
         </div>
       </section>
-    </>
-  );
+    </> 
 }

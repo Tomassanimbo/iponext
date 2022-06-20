@@ -18,7 +18,7 @@ export default function Empresas(){
           </form>
         </div>
 
-      </section>
+      </section>                                
 
       <section className="filter-busca">
         <div className="container">
