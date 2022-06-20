@@ -1241,6 +1241,11 @@ section.dadoEmpresa .container .dados_actualizado .box__actaualizada table tbody
   text-align: center;
 }
 
+section.financiamento .container {
+  display: flex;
+  align-items: center;
+}
+
 * {
   margin: 0;
   padding: 0;

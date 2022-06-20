@@ -28,12 +28,12 @@ export default function DataEmpresa() {
               <div className="imageEmpresa empresa">
                 <span>Emainvest</span>
                 <div className="content-image">
-                  <Image
+                  {/* <Image
                     layout="fill"
                     className="image-list"
                     src="/image/HERO.jpg"
                     alt=""
-                  />
+                  /> */}
                 </div>
                 <p>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut
