@@ -7,27 +7,31 @@ import Link from "next/link";
 export default function Financiamento(){
   return(
     <>
-      <section classsName="financiamento" >
-          <div className="container">
-            {/*area do dos buttons de activacao e empresa */}
-              <div className="header-fina">
+    <Script src="/scripts/main.js" strategy="lazyOnload" ></Script>
+    <Script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/6/tinymce.min.js" referrerpolicy="origin" ></Script>
+     {/*area do dos buttons de activacao e empresa */}
+     <div className="header-fina">
                 <div className="tipocompany">
-                <span className="empresa">
-                  empresa
-                </span>
+                  <span className="empresa">
+                    empresa
+                  </span>
                 </div>
                 <div className="companyAtive">
                   <form action="">
                     <input type="checkbox" name="" id="" />
                   </form>
                 </div>
-              </div>
+      </div>
+      <section className="financiamento padding" >
+          <div className="overlay"></div>
+          <div className="container">
+           
 
               {/* Area do texto de informacao */}
               <div className="texto">
-                <h1>Receba um financiamento</h1>
+                <h1 className="title" >Receba um financiamento</h1>
                 <p>Digite seus dados para solicitar um financiamento</p>
-                <span className="" >ao solicitar um financiamento tera de aguardar
+                <span className="warning" >ao solicitar um financiamento tera de aguardar
                   a resposta num periodo de 24 horas, a pos o envio
                 </span>
               </div>
@@ -36,18 +40,18 @@ export default function Financiamento(){
               {/* Area das informacoes que sera obtida para o financiamento */}
 
               <div className="contactArea">
-                <form action="">
+                <form action="" className="form">
                   <div className="form-control doc">
-                      <input type="text" name="" id=""  placeholder="digite o NIF da empresa"/>
-                      <input type="text" name="" id=""  placeholder="digite o seu BI "/>
+                      <input type="text" name="" id=""  placeholder="digite o NIF da empresa" required/>
+                      <input type="text" name="" id=""  placeholder="digite o seu BI " required/>
                   </div>
                   <div className="form-control doc">
                       <input type="text" name="" id=""  placeholder="digite seu nome"/>
                       <input type="text" name="" id=""  placeholder="digite seu sobrenome"/>
                   </div>
-                  <div className="form-control doc">
-                      <input type="text" name="" id=""  placeholder="digite seu email"/>
-                      <input type="text" name="" id=""  placeholder="digite seu telefone"/>
+                  <div className="form-control emailMobile">
+                      <input type="text" name="" id=""  placeholder="digite seu email" required/>
+                      <input type="text" name="" id=""  placeholder="digite seu telefone" required/>
                   </div>
 
                   <div className="form-textarea">
@@ -55,10 +59,10 @@ export default function Financiamento(){
                       <span>conte o motivo</span>
                       <div className="mount">
                         <span>montante</span>
-                        <input type="text" name="" id="" />
+                        <input type="number" name="" id="" required />
                       </div>
                     </div>
-                    <textarea placeholder="digite o motivo do financiamneto"></textarea>
+                    <textarea required placeholder="digite o motivo do financiamneto"></textarea>
                   </div>
 
                   <div className="form-submit">

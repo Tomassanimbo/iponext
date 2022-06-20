@@ -25,14 +25,17 @@ $corFundoLinear: linear-gradient(
 :root {
   font-size: 62.5%;
 }
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap");
+
+
+
+@import url('https://fonts.googleapis.com/css2? family= Lato:wght@400;700;900 & family= Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300 & family= Roboto:wght@400;500;700;900 & display=swap');
 @import "./navbar.scss";
 @import "./buttons.scss";
 @import "./home.scss";
 @import "./empresas.scss";
 @import "./empresa.scss";
 @import "./footer.scss";
-@import "./acesso.scss";
+@import "./financa.scss";
 @import "./details-empresa.scss";
 @import "./getmoney.scss";
 @import "./data_empresa.scss";
@@ -42,6 +45,7 @@ $corFundoLinear: linear-gradient(
   padding: 0;
   box-sizing: border-box;
   overflow: visible;
+  font-family: "Poppins", sans-serif;
 }
 .hight {
   min-height: 70vh;
@@ -138,6 +142,7 @@ img {
 }
 
 input {
+  font-family: 'Roboto';
   outline: none;
   border: 0;
   transition: all ease-in-out 0.2s;

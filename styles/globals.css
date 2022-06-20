@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2? family= Lato:wght@400;700;900 & family= Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300 & family= Roboto:wght@400;500;700;900 & display=swap");
 :root {
   font-size: 62.5%;
 }
@@ -654,96 +654,6 @@ footer.rodape section.footer-2 .container .news .form .form-control input::place
   color: #ccc;
 }
 
-section.login-acesso {
-  min-height: calc(100vh - 100px);
-  flex: 1 0 auto;
-}
-section.login-acesso .min-container h1 {
-  text-align: center;
-}
-section.login-acesso .min-container .login-area {
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  height: 100%;
-}
-section.login-acesso .min-container .login-area .text-left {
-  background-color: #01038A;
-  width: 300px;
-  text-align: center;
-  padding: 20px 10px;
-}
-section.login-acesso .min-container .login-area .text-left h1, section.login-acesso .min-container .login-area .text-left p {
-  color: #fff;
-}
-section.login-acesso .min-container .login-area .text-left p {
-  color: #fff;
-  font-size: 1.3rem;
-}
-section.login-acesso .min-container .login-area .login-acess {
-  width: 100%;
-  max-width: 300px;
-  padding: 30px 15px;
-}
-section.login-acesso .min-container .login-area .login-acess .form .form-control {
-  margin: 30px 0;
-}
-section.login-acesso .min-container .login-area .login-acess .form .form-control input {
-  width: 100%;
-  height: 40px;
-  padding-left: 15px;
-}
-section.login-acesso .min-container .login-area .login-acess .form .form-control input:focus {
-  border-bottom: 2px solid #01038A;
-}
-section.login-acesso .min-container .login-area .login-acess .form .form-control:nth-child(2) {
-  margin-bottom: 10px;
-}
-section.login-acesso .min-container .login-area .login-acess .form .form-checkbox {
-  margin: 10px 0;
-  display: flex;
-  align-items: center;
-}
-section.login-acesso .min-container .login-area .login-acess .form .form-checkbox label {
-  font-size: 1.3rem;
-  margin-right: 5px;
-  color: #047aed;
-}
-section.login-acesso .min-container .login-area .login-acess .form .form-checkbox .label-register {
-  font-size: 1rem;
-  padding: 0 5px;
-}
-section.login-acesso .min-container .login-area .login-acess .form input[type=submit] {
-  width: 100%;
-  height: 40px;
-  margin: 5px 0 12px 0;
-  color: #fff;
-  text-transform: uppercase;
-  background-color: #047aed;
-  cursor: pointer;
-}
-section.login-acesso .min-container .login-area .login-acess .form input[type=submit]:hover {
-  background-color: #01038A;
-  transform: scale(0.9);
-}
-section.login-acesso .min-container .login-area .login-acess .form .account {
-  display: flex;
-  align-items: start;
-}
-section.login-acesso .min-container .login-area .login-acess .form .account p {
-  font-size: 1.3rem;
-  margin: 0 10px 0 0;
-  color: #ce4f00;
-}
-section.login-acesso .min-container .login-area .login-acess .form .account a {
-  color: #047aed;
-}
-section.login-acesso .min-container .login-area .login-acess .form .account a:hover {
-  color: #01038A;
-}
-
 section.detalhes-company .container .informar {
   position: relative;
   display: flex;
@@ -1241,9 +1151,140 @@ section.dadoEmpresa .container .dados_actualizado .box__actaualizada table tbody
   text-align: center;
 }
 
-section.financiamento .container {
+.header-fina {
   display: flex;
+  justify-content: space-between;
   align-items: center;
+}
+.header-fina .tipocompany {
+  background-color: red;
+}
+.header-fina .tipocompany .empresa {
+  display: inline-block;
+}
+
+section.financiamento {
+  position: relative;
+}
+section.financiamento .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  min-height: 50.5vh;
+  z-index: 1;
+  background-color: #d6d6f4;
+}
+section.financiamento .container {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section.financiamento .container .texto {
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  margin: 36px 0;
+  color: #383bff;
+}
+section.financiamento .container .texto h1, section.financiamento .container .texto p {
+  color: #383bff;
+}
+section.financiamento .container .texto .title {
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+section.financiamento .container .texto .warning {
+  color: #FF7A00;
+  font-weight: 600;
+}
+section.financiamento .container .contactArea {
+  max-width: 700px;
+  width: 100%;
+}
+section.financiamento .container .contactArea .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section.financiamento .container .contactArea .form .form-control {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+section.financiamento .container .contactArea .form .form-control [type=text] {
+  height: 40px;
+  width: 320px;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 1.6rem;
+  color: #383bff;
+  font-family: "Roboto", sans-serif;
+}
+section.financiamento .container .contactArea .form .emailMobile {
+  flex-direction: column;
+}
+section.financiamento .container .contactArea .form .form-textarea {
+  width: 100%;
+  max-width: 700px;
+  padding: 0 2%;
+}
+section.financiamento .container .contactArea .form .form-textarea textarea {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  resize: none;
+  font-size: 1.6rem;
+  color: #444444;
+}
+section.financiamento .container .contactArea .form .form-textarea textarea:is(:focus, :focus-visible) {
+  border: 2px solid #01038a;
+}
+section.financiamento .container .contactArea .form .form-textarea textarea::-webkit-scrollbar {
+  width: 0px;
+}
+section.financiamento .container .contactArea .form .form-textarea .shortInfo {
+  background-color: #383bff;
+  padding: 10px 2px 10px 30px;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+}
+section.financiamento .container .contactArea .form .form-textarea .shortInfo span {
+  width: 50%;
+  color: #fff;
+}
+section.financiamento .container .contactArea .form .form-textarea .shortInfo .mount {
+  width: 50%;
+  color: #fff;
+}
+section.financiamento .container .contactArea .form .form-textarea .shortInfo .mount span {
+  padding: 0 6px;
+}
+section.financiamento .container .contactArea .form .form-textarea .shortInfo .mount [type=number] {
+  font-size: 1.6rem;
+  color: #383bff;
+  padding: 10px;
+}
+section.financiamento .container .contactArea .form .form-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.financiamento .container .contactArea .form .form-submit [type=submit] {
+  width: 200px;
+  background-color: #383bff;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 20px;
 }
 
 * {
@@ -1251,6 +1292,7 @@ section.financiamento .container {
   padding: 0;
   box-sizing: border-box;
   overflow: visible;
+  font-family: "Poppins", sans-serif;
 }
 
 .hight {
@@ -1355,6 +1397,7 @@ img {
 }
 
 input {
+  font-family: "Roboto";
   outline: none;
   border: 0;
   transition: all ease-in-out 0.2s;
