@@ -1112,10 +1112,12 @@ section.paginacao .container .impressao form .form-control h4 {
 }
 
 section.dadoEmpresa .container {
+  overflow: visible;
+  inset: 0;
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
-  width: 100%;
+  padding: 0 2%;
 }
 section.dadoEmpresa .container .box-info {
   margin-bottom: 30px;
@@ -1180,7 +1182,7 @@ section.dadoEmpresa .container .info-analytic .empresas .empresa {
   flex-direction: column;
 }
 section.dadoEmpresa .container .info-analytic .empresas .empresa .content-image {
-  width: 500px;
+  width: 400px;
   height: 300px;
   position: relative;
 }
@@ -1210,13 +1212,13 @@ section.dadoEmpresa .container .info-analytic .empresas .analytic .content-analy
 section.dadoEmpresa .container .dados_actualizado {
   position: relative;
   margin-top: 40px;
-  display: grid;
-  grid-template-columns: auto auto auto;
+  grid-column: 1/3;
   position: relative;
-  align-items: center;
+  display: flex;
+  justify-content: space-around;
 }
 section.dadoEmpresa .container .dados_actualizado .box__actaualizada {
-  width: 450px;
+  width: 400px;
   height: 200px;
 }
 section.dadoEmpresa .container .dados_actualizado .box__actaualizada .tabela {
