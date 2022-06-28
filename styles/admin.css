@@ -1,0 +1,10 @@
+main#admin .asideBar {
+  background-color: red;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+}
+
+/*# sourceMappingURL=admin.css.map */

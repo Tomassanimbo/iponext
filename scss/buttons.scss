@@ -62,3 +62,19 @@ button.reset {
     color: #fff;
   }
 }
+
+
+.btn-submit{
+  background-color: $corPrimaria;
+  color: $corWhite;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border: 1px solid $corPrimaria;
+cursor: pointer;
+  &:hover{
+    background-color: $corBackground-1;
+    color: $corSecondary;
+  }
+}

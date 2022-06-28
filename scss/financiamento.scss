@@ -1,13 +1,33 @@
-.header-fina {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.header-financiamento {
+  background-color: $corPrimaria;
+ .container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
   .tipocompany {
     background-color: red;
     .empresa {
-      display: inline-block;
+    }
+
+  }
+  .companyAtive{
+    form{
+
+      label{
+  
+        color: $corWhite;
+        margin-right: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        span{
+          margin-right: 2rem;
+        }
+      }
     }
   }
+ }
 }
 
 section.financiamento {
@@ -85,7 +105,7 @@ section.financiamento {
           padding: 0 2%;
           textarea{
             width: 100%;
-            // height: 50px;
+            height: 150px;
             padding: 10px;
             outline: none;
             resize: none;
@@ -134,16 +154,25 @@ section.financiamento {
           display: flex;
           justify-content: center;
           align-items: center;
-          [type=submit]{
-            // height: 40px;
-            width: 200px;
-            background-color: $corPrimaria;
-            color: $corWhite;
+          .send{
+            background-color: $corBackground-1;
+            padding:  10px 30px;
             font-size: 2rem;
-            font-weight: 700;
-            text-transform: uppercase;
-            padding:  20px;
+
           }
+          // [type=submit]{
+          //   // height: 40px;
+          //   // width: 200px;
+          //   background-color: $corBackground-1;
+          //   color: $corWhite;
+          //   font-size: 2rem;
+          //   font-weight: 700;
+          //   text-transform: uppercase;
+          //   padding: 10px 20px;
+          //   border: 1px solid $corPrimaria;
+          // cursor: pointer;
+
+          // }
         }
       }
 

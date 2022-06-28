@@ -92,6 +92,21 @@ button.reset a {
   color: #fff;
 }
 
+.btn-submit {
+  background-color: #383bff;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border: 1px solid #383bff;
+  cursor: pointer;
+}
+.btn-submit:hover {
+  background-color: #d6d6f4;
+  color: #01038a;
+}
+
 section.hero {
   background: linear-gradient(94deg, rgba(0, 0, 0, 0.5) 0%, rgba(82, 85, 251, 0.2525385154) 100%), url("../public/image/HERO.jpg");
   background-size: cover;
@@ -1151,16 +1166,26 @@ section.dadoEmpresa .container .dados_actualizado .box__actaualizada table tbody
   text-align: center;
 }
 
-.header-fina {
+.header-financiamento {
+  background-color: #383bff;
+}
+.header-financiamento .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.header-fina .tipocompany {
+.header-financiamento .container .tipocompany {
   background-color: red;
 }
-.header-fina .tipocompany .empresa {
-  display: inline-block;
+.header-financiamento .container .companyAtive form label {
+  color: #fff;
+  margin-right: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-financiamento .container .companyAtive form label span {
+  margin-right: 2rem;
 }
 
 section.financiamento {
@@ -1235,6 +1260,7 @@ section.financiamento .container .contactArea .form .form-textarea {
 }
 section.financiamento .container .contactArea .form .form-textarea textarea {
   width: 100%;
+  height: 150px;
   padding: 10px;
   outline: none;
   resize: none;
@@ -1277,14 +1303,19 @@ section.financiamento .container .contactArea .form .form-submit {
   justify-content: center;
   align-items: center;
 }
-section.financiamento .container .contactArea .form .form-submit [type=submit] {
-  width: 200px;
-  background-color: #383bff;
-  color: #fff;
+section.financiamento .container .contactArea .form .form-submit .send {
+  background-color: #d6d6f4;
+  padding: 10px 30px;
   font-size: 2rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  padding: 20px;
+}
+
+main#admin .asideBar {
+  background-color: red;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
 }
 
 * {
