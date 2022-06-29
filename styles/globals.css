@@ -1374,6 +1374,8 @@ div#admin .asideBar ul li a .iconBoard {
   margin-right: 10px;
 }
 div#admin .conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 250px;
   width: calc(100% - 200px);
   left: 200px;
   position: relative;
@@ -1383,10 +1385,12 @@ div#admin .conteudo .navBar {
   border-bottom: 1px solid #ccc;
 }
 div#admin .conteudo .navBar .container {
-  height: 70px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+div#admin .conteudo .navBar .container .navBar {
+  height: 100px;
 }
 div#admin .conteudo .navBar .container .perfil {
   display: flex;
@@ -1403,6 +1407,26 @@ div#admin .conteudo .navBar .container .perfil .avatar-1 {
 }
 div#admin .conteudo .navBar .container .perfil .name {
   margin-right: 2rem;
+}
+div#admin .conteudo nav {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+div#admin .conteudo main {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  background-color: blue;
+  min-height: 100vh;
+}
+div#admin .conteudo aside {
+  position: fixed;
+  top: 0;
+  right: 0;
+  grid-column-start: 4;
+  grid-row-start: 1;
+  height: 100%;
+  background-color: red;
 }
 
 * {

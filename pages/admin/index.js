@@ -147,8 +147,20 @@ export default function Admin() {
                   </button>
                 </div>
               </form>
+
+              <div className="notification">
+                <i className="bx bx-bell"></i>
+              </div>
             </div>
           </nav>
+
+          <main>
+            ruassisa
+          </main>
+
+          <aside>
+            right
+          </aside>
         </div>
       </div>
     </>
