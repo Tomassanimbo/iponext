@@ -10,8 +10,8 @@ export default function Navbar(){
     <Head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossOrigin="anonymous" referrerpolicy="no-referrer" />
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'></link>
-    </Head>
     <Script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></Script>
+    </Head>
       <header className="header" >
             <div className="container flex nav-flex">
                 <nav className="navbar flex">

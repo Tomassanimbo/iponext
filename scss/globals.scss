@@ -1,13 +1,14 @@
 $corPrimaria: #383bff;
 $corSecondary: #01038a;
+$corLink: #787878;
 $corDark: #000036f0;
 $corBackground-1: #d6d6f4;
 $corBackground: #f1f1f1;
 $corWhite: #fff;
 $corTexto: #444444;
-$corGreen: #02DE5A;
+$corGreen: #02de5a;
 $corGray: #ccc;
-$corWarning: #FF7A00;
+$corWarning: #ff7a00;
 // outras opciones
 $corRgba: rgba(0, 0, 0, 0.5);
 $corSombra: 0px 2px 10px 0 rgba(0, 0, 0, 0.5);
@@ -26,9 +27,7 @@ $corFundoLinear: linear-gradient(
   font-size: 62.5%;
 }
 
-
-
-@import url('https://fonts.googleapis.com/css2? family= Lato:wght@400;700;900 & family= Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300 & family= Roboto:wght@400;500;700;900 & display=swap');
+@import url("https://fonts.googleapis.com/css2? family= Lato:wght@400;700;900 & family= Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300 & family= Roboto:wght@400;500;700;900 & display=swap");
 @import "./navbar.scss";
 @import "./buttons.scss";
 @import "./home.scss";
@@ -143,7 +142,7 @@ img {
 }
 
 input {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   outline: none;
   border: 0;
   transition: all ease-in-out 0.2s;

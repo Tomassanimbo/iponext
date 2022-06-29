@@ -1067,13 +1067,13 @@ section.dadoEmpresa .container .card-Box h2 {
   color: #fff;
 }
 section.dadoEmpresa .container .investido {
-  background-color: #FF7A00;
+  background-color: #ff7a00;
 }
 section.dadoEmpresa .container .investido h3 {
   background-color: #383bff;
 }
 section.dadoEmpresa .container .ganhos {
-  background-color: #02DE5A;
+  background-color: #02de5a;
 }
 section.dadoEmpresa .container .ganhos h3 {
   background-color: #383bff;
@@ -1224,7 +1224,7 @@ section.financiamento .container .texto .title {
   margin: 0;
 }
 section.financiamento .container .texto .warning {
-  color: #FF7A00;
+  color: #ff7a00;
   font-weight: 600;
 }
 section.financiamento .container .contactArea {
@@ -1309,13 +1309,100 @@ section.financiamento .container .contactArea .form .form-submit .send {
   font-size: 2rem;
 }
 
-main#admin .asideBar {
-  background-color: red;
+div#admin .asideBar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+  background-color: #fff;
   position: fixed;
   top: 0;
   left: 0;
-  width: 250px;
+  max-width: 200px;
+  width: 100%;
   height: 100%;
+  border-right: 1px solid #ccc;
+}
+div#admin .asideBar .brand {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+div#admin .asideBar .brand .avatar {
+  margin: 2rem;
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 54, 0.9411764706);
+}
+div#admin .asideBar .brand .dash {
+  display: flex;
+  align-items: center;
+}
+div#admin .asideBar .brand .dash .iconBoard {
+  font-size: 3rem;
+  margin-right: 10px;
+}
+div#admin .asideBar ul span {
+  display: inline-block;
+  text-transform: uppercase;
+  color: #383bff;
+  font-weight: 700;
+  width: 100%;
+}
+div#admin .asideBar ul li {
+  margin: 10px 0;
+  margin-left: 2rem;
+  display: block;
+}
+div#admin .asideBar ul li a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: #787878;
+  font-weight: 300;
+}
+div#admin .asideBar ul li a:hover {
+  color: #383bff;
+}
+div#admin .asideBar ul li a .icon,
+div#admin .asideBar ul li a .iconBoard {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+div#admin .conteudo {
+  width: calc(100% - 200px);
+  left: 200px;
+  position: relative;
+  background-color: #fff;
+}
+div#admin .conteudo .navBar {
+  border-bottom: 1px solid #ccc;
+}
+div#admin .conteudo .navBar .container {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+div#admin .conteudo .navBar .container .perfil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+}
+div#admin .conteudo .navBar .container .perfil .avatar-1 {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: aqua;
+  margin: 0 2rem 0 0;
+}
+div#admin .conteudo .navBar .container .perfil .name {
+  margin-right: 2rem;
 }
 
 * {
