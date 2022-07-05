@@ -123,7 +123,7 @@
 
   // area de navegacao
   nav {
-    span{
+    span {
       display: inline-block;
       color: $corPrimaria;
       font-weight: 600;
@@ -131,33 +131,29 @@
     }
     ul {
       li {
-        border-bottom: 1px solid transparent ;
+        border-bottom: 1px solid transparent;
         margin-bottom: 1.6rem;
         padding-left: 2rem;
 
-        &:hover{
-          border-bottom: 1px solid $corPrimaria ;
+        &:hover {
+          border-bottom: 1px solid $corPrimaria;
           transform: translateX(-26px);
           background-color: $corPrimaria;
         }
 
-        a{
+        a {
           padding: 12px 15px;
           position: relative;
-
         }
         &:hover a {
           color: $corWhite;
           background-color: $corPrimaria;
         }
-        .icon{
+        .icon {
           margin-right: 2rem;
           font-size: 2rem;
           // color: $corPrimaria;
-      
         }
-
-      
       }
     }
   }
