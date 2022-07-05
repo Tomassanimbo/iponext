@@ -19,8 +19,11 @@ export default function Admin() {
         referrerpolicy="no-referrer"
       ></Script>
 
-      <div id="admin">
-        <aside className="asideBar">
+      <div className="grid">
+        <section id="navBar">
+          <div className="emainvest-logo">
+            dddddd
+          </div>
           <div className="brand">
             <div className="avatar"></div>
             <div className="dash">
@@ -28,139 +31,170 @@ export default function Admin() {
               <span>Dashboard</span>
             </div>
           </div>
+          <nav>
+            <ul>
+              <li>
+                <Link href="#">
+                  <a>
+                    <i className="icon  bx bx-home-heart"></i>
+                    Home
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="#">
+                  <a>
+                    <i className="icon bx bx-money-withdraw"></i>
+                    Financiamento
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="#">
+                  <a>
+                    <i className="icon bx bx-git-merge"></i>
+                    Investimento
+                  </a>
+                </Link>
+              </li>
+              <span>Administracao</span>
+              <li>
+                <Link href="#">
+                  <a>
+                    <i className="icon bx bx-building"></i>
+                    Empresa
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="#">
+                  <a>
+                    <i className="icon bx bx-group"></i>
+                    Clientes
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="#">
+                  <a>
+                    <i className="icon bx bx-user"></i>
+                    Usuarios
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="#">
+                  <a>
+                    <i className="icon bx bx-at"></i>
+                    Email
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="#">
+                  <a>
+                    <i className="icon bx bx-cog"></i>
+                    Config
+                  </a>
+                </Link>
+              </li>
+              <span>Helps</span>
+              <li>
+                <Link href="#">
+                  <a>
+                    <i className="icon bx bx-message-square"></i>
+                    Mensagem
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="#">
+                  <a>
+                    <i className="icon bx bx-message-rounded"></i>
+                    Chat
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="#">
+                  <a>
+                    <i className="icon bx bx-message-rounded"></i>
+                    Contactos
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="#">
+                  <a>
+                    <i className="icon bx bx-support"></i>
+                    Suport
+                  </a>
+                </Link>
+              </li>
+            </ul>
+          </nav>
+        </section>
 
-          <ul>
-            <li>
-              <Link href="#">
-                <a>
-                  <i className="icon  bx bx-home-heart"></i>
-                  Home
-                </a>
-              </Link>
-            </li>
-            <li>
-              <Link href="#">
-                <a>
-                  <i className="icon bx bx-money-withdraw"></i>
-                  Financiamento
-                </a>
-              </Link>
-            </li>
-            <li>
-              <Link href="#">
-                <a>
-                  <i className="icon bx bx-git-merge"></i>
-                  Investimento
-                </a>
-              </Link>
-            </li>
-            <span>Administracao</span>
-            <li>
-              <Link href="#">
-                <a>
-                  <i className="icon bx bx-building"></i>
-                  Empresa
-                </a>
-              </Link>
-            </li>
-            <li>
-              <Link href="#">
-                <a>
-                  <i className="icon bx bx-group"></i>
-                  Clientes
-                </a>
-              </Link>
-            </li>
-            <li>
-              <Link href="#">
-                <a>
-                  <i className="icon bx bx-user"></i>
-                  Usuarios
-                </a>
-              </Link>
-            </li>
-            <li>
-              <Link href="#">
-                <a>
-                  <i className="icon bx bx-at"></i>
-                  Email
-                </a>
-              </Link>
-            </li>
-            <li>
-              <Link href="#">
-                <a>
-                  <i className="icon bx bx-cog"></i>
-                  Config
-                </a>
-              </Link>
-            </li>
-            <span>Helps</span>
-            <li>
-              <Link href="#">
-                <a>
-                  <i className="icon bx bx-message-square"></i>
-                  Mensagem
-                </a>
-              </Link>
-            </li>
-            <li>
-              <Link href="#">
-                <a>
-                  <i className="icon bx bx-message-rounded"></i>
-                  Chat
-                </a>
-              </Link>
-            </li>
-            <li>
-              <Link href="#">
-                <a>
-                  <i className="icon bx bx-message-rounded"></i>
-                  Contactos
-                </a>
-              </Link>
-            </li>
-            <li>
-              <Link href="#">
-                <a>
-                  <i className="icon bx bx-support"></i>
-                  Suport
-                </a>
-              </Link>
-            </li>
-          </ul>
-        </aside>
+        <section className="menu-top">
+          <div className="avatar">
+            <div className="image"></div>
+            <div className="name-types">
+              <span className="name">Toma Sanimbo</span>
+              <span className="admin">Admin</span>
+            </div>
+          </div>
 
-        <div className="conteudo">
-          <nav className="navBar">
-            <div className="container">
-              <div className="perfil">
-                <div className="avatar-1"></div>
-                <span className="name">Jesus</span>
-                <span className="type-acount">Admin</span>
+          <div className="form">
+            <form action="">
+              <input type="search" name="" id="" />
+
+              <button type="button">
+                <i className="bx bx-search"></i>
+              </button>
+            </form>
+          </div>
+
+          <div className="bell">
+            <i className="bx bx-bell"></i>
+          </div>
+        </section>
+
+        <div className="main-content">
+          <div className="dados">
+           <div className="empresas">
+            <div className="title">
+              empresa
+            </div>
+            <div className="boxes">
+              <div className="card">
+                <h4>quant</h4>
+                <span>25</span>
               </div>
-              <form action="">
-                <div className="form-search">
-                  <input type="text" placeholder="busca..." />
-                  <button>
-                    <i className="bx bx-search"></i>
-                  </button>
-                </div>
-              </form>
-
-              <div className="notification">
-                <i className="bx bx-bell"></i>
+              <div className="card">
+                <h4>desvalorizada</h4>
+                <span>25</span>
+              </div>
+              <div className="card">
+                <h4>recente</h4>
+                <span>25</span>
+              </div>
+              <div className="card">
+                <h4>valorizada</h4>
+                <span>25</span>
+              </div>
+              <div className="card">
+                <h4>top</h4>
+                <span>25</span>
               </div>
             </div>
-          </nav>
+           </div>
+          </div>
+        </div>
 
-          <main>
-            ruassisa
-          </main>
+        <div className="aside-right padding">
+          <div className="direito">
 
-          <aside>
-            right
-          </aside>
+          </div>
         </div>
       </div>
     </>

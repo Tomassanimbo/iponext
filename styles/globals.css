@@ -1309,124 +1309,154 @@ section.financiamento .container .contactArea .form .form-submit .send {
   font-size: 2rem;
 }
 
-div#admin .asideBar {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding-top: 50px;
-  background-color: #fff;
-  position: fixed;
-  top: 0;
-  left: 0;
-  max-width: 200px;
-  width: 100%;
-  height: 100%;
-  border-right: 1px solid #ccc;
+* {
+  margin: 0;
+  padding: 0;
 }
-div#admin .asideBar .brand {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-div#admin .asideBar .brand .avatar {
-  margin: 2rem;
-  height: 100px;
-  width: 100px;
-  background-color: aqua;
-  border-radius: 50%;
-  border: 2px solid rgba(0, 0, 54, 0.9411764706);
-}
-div#admin .asideBar .brand .dash {
-  display: flex;
-  align-items: center;
-}
-div#admin .asideBar .brand .dash .iconBoard {
-  font-size: 3rem;
-  margin-right: 10px;
-}
-div#admin .asideBar ul span {
-  display: inline-block;
-  text-transform: uppercase;
-  color: #383bff;
-  font-weight: 700;
-  width: 100%;
-}
-div#admin .asideBar ul li {
-  margin: 10px 0;
-  margin-left: 2rem;
-  display: block;
-}
-div#admin .asideBar ul li a {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  color: #787878;
-  font-weight: 300;
-}
-div#admin .asideBar ul li a:hover {
-  color: #383bff;
-}
-div#admin .asideBar ul li a .icon,
-div#admin .asideBar ul li a .iconBoard {
-  font-size: 2rem;
-  margin-right: 10px;
-}
-div#admin .conteudo {
+
+.grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 250px;
-  width: calc(100% - 200px);
-  left: 200px;
-  position: relative;
-  background-color: #fff;
+  grid-template-columns: 0.6fr 2fr 2fr 0.6fr;
+  grid-template-rows: 8rem auto auto auto;
+  grid-template-areas: "lefte navtop navtop rights" "lefte main main rights" "lefte main main rights" "lefte main main rights";
 }
-div#admin .conteudo .navBar {
-  border-bottom: 1px solid #ccc;
-}
-div#admin .conteudo .navBar .container {
+
+.menu-top {
+  padding: 0 3rem;
+  grid-area: navtop;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  display: flex;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-div#admin .conteudo .navBar .container .navBar {
-  height: 100px;
-}
-div#admin .conteudo .navBar .container .perfil {
+.menu-top .avatar {
   display: flex;
-  justify-content: center;
   align-items: center;
-  margin-left: 2rem;
 }
-div#admin .conteudo .navBar .container .perfil .avatar-1 {
-  height: 40px;
-  width: 40px;
+.menu-top .avatar .image {
+  background-color: pink;
+  height: 50px;
+  width: 50px;
   border-radius: 50%;
-  background-color: aqua;
-  margin: 0 2rem 0 0;
-}
-div#admin .conteudo .navBar .container .perfil .name {
   margin-right: 2rem;
+  border: 2px solid #383bff;
 }
-div#admin .conteudo nav {
-  grid-column-start: 1;
-  grid-column-end: 3;
+.menu-top .avatar .name-types {
+  display: flex;
+  column-gap: 25px;
 }
-div#admin .conteudo main {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  background-color: blue;
-  min-height: 100vh;
+.menu-top .avatar .name-types .name {
+  color: #ccc;
 }
-div#admin .conteudo aside {
-  position: fixed;
+.menu-top .avatar .name-types .admin {
+  color: #383bff;
+}
+.menu-top .form {
+  width: 500px;
+}
+.menu-top .form form {
+  display: flex;
+  align-content: center;
+  position: relative;
+}
+.menu-top .form form input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 1.6rem;
+  margin-right: 2rem;
+  padding: 0 3rem;
+  color: #787878;
+  font-size: 1.8rem;
+  letter-spacing: 0.2rem;
+  line-height: 125%;
+  font-family: "Lato", sans-serif;
+}
+.menu-top .form form button {
+  top: 10px;
+  right: 3rem;
+  position: absolute;
+  background-color: transparent;
+}
+.menu-top .form form button .bx {
+  color: #383bff;
+  font-size: 2rem;
+  color: #383bff;
+}
+
+#navBar {
+  background-color: white;
+  border-right: 1px solid #ccc;
+  grid-area: lefte;
+  position: sticky;
   top: 0;
-  right: 0;
-  grid-column-start: 4;
-  grid-row-start: 1;
-  height: 100%;
+  height: 100vh;
+  padding-left: 2rem;
+}
+#navBar .emainvest-logo {
+  position: absolute;
+  height: 8rem;
+  width: 100%;
+}
+#navBar .brand {
+  margin-top: 10rem;
+  margin-bottom: 3rem;
+}
+#navBar .brand .avatar {
   background-color: red;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-bottom: 3rem;
+}
+#navBar .brand .dash {
+  display: flex;
+  align-items: center;
+}
+#navBar nav span {
+  display: inline-block;
+  color: #383bff;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+#navBar nav ul li {
+  border-bottom: 1px solid transparent;
+  margin-bottom: 1.6rem;
+  padding-left: 2rem;
+}
+#navBar nav ul li:hover {
+  border-bottom: 1px solid #383bff;
+  transform: translateX(-26px);
+  background-color: #383bff;
+}
+#navBar nav ul li a {
+  padding: 12px 15px;
+  position: relative;
+}
+#navBar nav ul li:hover a {
+  color: #fff;
+  background-color: #383bff;
+}
+#navBar nav ul li .icon {
+  margin-right: 2rem;
+  font-size: 2rem;
+}
+
+.main-content {
+  grid-area: main;
+  padding: 2rem 3rem;
+}
+
+.aside-right {
+  background-color: white;
+  grid-area: rights;
+  position: sticky;
+  top: 0;
+  height: 100vh;
 }
 
 * {
@@ -1514,7 +1544,6 @@ h6 {
   padding: 0;
   font-size: 2rem;
   color: #444444;
-  display: block;
 }
 
 p {
