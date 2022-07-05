@@ -87,7 +87,7 @@
 
 // Area da navBar lado direito
 #navBar {
-  background-color: white;
+  background-color: $corPrimaria;
   border-right: 1px solid #ccc;
   grid-area: lefte;
   position: sticky;
@@ -116,7 +116,6 @@
     .dash {
       display: flex;
       align-items: center;
-      // justify-content: center;
     }
     margin-bottom: 3rem;
   }
@@ -125,20 +124,20 @@
   nav {
     span {
       display: inline-block;
-      color: $corPrimaria;
+      color: $corBackground-1;
       font-weight: 600;
       margin-bottom: 12px;
     }
     ul {
       li {
         border-bottom: 1px solid transparent;
-        margin-bottom: 1.6rem;
+        margin-bottom: 0.5rem;
         padding-left: 2rem;
 
         &:hover {
           border-bottom: 1px solid $corPrimaria;
           transform: translateX(-26px);
-          background-color: $corPrimaria;
+          background-color: $corWhite;
         }
 
         a {
@@ -146,8 +145,7 @@
           position: relative;
         }
         &:hover a {
-          color: $corWhite;
-          background-color: $corPrimaria;
+          color: $corPrimaria;
         }
         .icon {
           margin-right: 2rem;
@@ -161,9 +159,6 @@
 
 // Estilo da conteudo principal
 .main-content {
-  grid-area: main;
-
-  padding: 2rem 3rem;
 }
 
 // Estilos do aside do lado direito

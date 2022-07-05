@@ -1388,7 +1388,7 @@ section.financiamento .container .contactArea .form .form-submit .send {
 }
 
 #navBar {
-  background-color: white;
+  background-color: #383bff;
   border-right: 1px solid #ccc;
   grid-area: lefte;
   position: sticky;
@@ -1419,36 +1419,30 @@ section.financiamento .container .contactArea .form .form-submit .send {
 }
 #navBar nav span {
   display: inline-block;
-  color: #383bff;
+  color: #d6d6f4;
   font-weight: 600;
   margin-bottom: 12px;
 }
 #navBar nav ul li {
   border-bottom: 1px solid transparent;
-  margin-bottom: 1.6rem;
+  margin-bottom: 0.5rem;
   padding-left: 2rem;
 }
 #navBar nav ul li:hover {
   border-bottom: 1px solid #383bff;
   transform: translateX(-26px);
-  background-color: #383bff;
+  background-color: #fff;
 }
 #navBar nav ul li a {
   padding: 12px 15px;
   position: relative;
 }
 #navBar nav ul li:hover a {
-  color: #fff;
-  background-color: #383bff;
+  color: #383bff;
 }
 #navBar nav ul li .icon {
   margin-right: 2rem;
   font-size: 2rem;
-}
-
-.main-content {
-  grid-area: main;
-  padding: 2rem 3rem;
 }
 
 .aside-right {

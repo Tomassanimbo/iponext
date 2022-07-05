@@ -21,9 +21,7 @@ export default function Admin() {
 
       <div className="grid">
         <section id="navBar">
-          <div className="emainvest-logo">
-            dddddd
-          </div>
+          <div className="emainvest-logo">dddddd</div>
           <div className="brand">
             <div className="avatar"></div>
             <div className="dash">
@@ -159,42 +157,10 @@ export default function Admin() {
           </div>
         </section>
 
-        <div className="main-content">
-          <div className="dados">
-           <div className="empresas">
-            <div className="title">
-              empresa
-            </div>
-            <div className="boxes">
-              <div className="card">
-                <h4>quant</h4>
-                <span>25</span>
-              </div>
-              <div className="card">
-                <h4>desvalorizada</h4>
-                <span>25</span>
-              </div>
-              <div className="card">
-                <h4>recente</h4>
-                <span>25</span>
-              </div>
-              <div className="card">
-                <h4>valorizada</h4>
-                <span>25</span>
-              </div>
-              <div className="card">
-                <h4>top</h4>
-                <span>25</span>
-              </div>
-            </div>
-           </div>
-          </div>
-        </div>
+        <div className="main-content"></div>
 
         <div className="aside-right padding">
-          <div className="direito">
-
-          </div>
+          <div className="direito"></div>
         </div>
       </div>
     </>
