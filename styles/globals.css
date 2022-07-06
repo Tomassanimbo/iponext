@@ -1472,12 +1472,13 @@ section.login-acesso .min-container .login-area {
   height: 100%;
 }
 section.login-acesso .min-container .login-area .text-left {
-  background-color: #01038A;
+  background-color: #01038a;
   width: 300px;
   text-align: center;
   padding: 20px 10px;
 }
-section.login-acesso .min-container .login-area .text-left h1, section.login-acesso .min-container .login-area .text-left p {
+section.login-acesso .min-container .login-area .text-left h1,
+section.login-acesso .min-container .login-area .text-left p {
   color: #fff;
 }
 section.login-acesso .min-container .login-area .text-left p {
@@ -1496,9 +1497,10 @@ section.login-acesso .min-container .login-area .login-acess .form .form-control
   width: 100%;
   height: 40px;
   padding-left: 15px;
+  font-family: "Lato", sans-serif;
 }
 section.login-acesso .min-container .login-area .login-acess .form .form-control input:focus {
-  border-bottom: 2px solid #01038A;
+  border-bottom: 2px solid #01038a;
 }
 section.login-acesso .min-container .login-area .login-acess .form .form-control:nth-child(2) {
   margin-bottom: 10px;
@@ -1527,7 +1529,7 @@ section.login-acesso .min-container .login-area .login-acess .form input[type=su
   cursor: pointer;
 }
 section.login-acesso .min-container .login-area .login-acess .form input[type=submit]:hover {
-  background-color: #01038A;
+  background-color: #01038a;
   transform: scale(0.9);
 }
 section.login-acesso .min-container .login-area .login-acess .form .account {
@@ -1543,7 +1545,7 @@ section.login-acesso .min-container .login-area .login-acess .form .account a {
   color: #047aed;
 }
 section.login-acesso .min-container .login-area .login-acess .form .account a:hover {
-  color: #01038A;
+  color: #01038a;
 }
 
 * {
