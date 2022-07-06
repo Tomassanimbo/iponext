@@ -1316,7 +1316,7 @@ section.financiamento .container .contactArea .form .form-submit .send {
 
 .grid {
   display: grid;
-  grid-template-columns: 0.6fr 2fr 2fr 0.6fr;
+  grid-template-columns: 0.8fr 2fr 2fr 0.9fr;
   grid-template-rows: 8rem auto auto auto;
   grid-template-areas: "lefte navtop navtop rights" "lefte main main rights" "lefte main main rights" "lefte main main rights";
 }
@@ -1406,9 +1406,11 @@ section.financiamento .container .contactArea .form .form-submit .send {
   margin-bottom: 3rem;
 }
 #navBar .brand .avatar {
+  position: relative;
+  object-fit: cover;
   background-color: red;
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  max-width: 150px;
   margin: 0 auto;
   border-radius: 50%;
   margin-bottom: 3rem;

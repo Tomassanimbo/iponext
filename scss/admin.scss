@@ -4,7 +4,7 @@
 }
 .grid {
   display: grid;
-  grid-template-columns: 0.6fr 2fr 2fr 0.6fr;
+  grid-template-columns: 0.8fr 2fr 2fr 0.9fr;
   grid-template-rows: 8rem auto auto auto;
   grid-template-areas:
     "lefte navtop navtop rights"
@@ -97,7 +97,6 @@
 
   .emainvest-logo {
     position: absolute;
-    // background-color: pink;
     height: 8rem;
     width: 100%;
   }
@@ -105,9 +104,11 @@
   .brand {
     margin-top: 10rem;
     .avatar {
+      position: relative;
+      object-fit: cover;
       background-color: red;
-      height: 100px;
-      width: 100px;
+      height: 150px;
+      max-width: 150px;
       margin: 0 auto;
       border-radius: 50%;
       margin-bottom: 3rem;
@@ -160,6 +161,25 @@
 // Estilo da conteudo principal
 .main-content {
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Estilos do aside do lado direito
 .aside-right {

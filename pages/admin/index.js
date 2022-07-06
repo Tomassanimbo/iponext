@@ -23,7 +23,9 @@ export default function Admin() {
         <section id="navBar">
           <div className="emainvest-logo">dddddd</div>
           <div className="brand">
-            <div className="avatar"></div>
+            <div className="avatar">
+              <Image layout="fill" src="/image/man-profile.svg" alt=""  />
+            </div>
             <div className="dash">
               <i className="iconBoard bx bxs-dashboard"></i>
               <span>Dashboard</span>
